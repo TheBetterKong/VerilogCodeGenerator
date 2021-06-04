@@ -1,0 +1,72 @@
+def generate_terminal0():
+    s0 = input
+    count0 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'0', str(n)))
+
+def generate_terminal1():
+    s1 = input
+    count1 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'1', str(n)))
+
+def generate_terminal2():
+    s2 = input
+    count2 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'2', str(n)))
+
+def generate_terminal3():
+    s3 = input
+    count3 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'3', str(n)))
+
+def generate_terminal4():
+    s4 = input
+    count4 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'4', str(n)))
+
+def generate_terminal5():
+    s5 = input
+    count5 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'5', str(n)))
+
+def generate_terminal6():
+    s6 = input
+    count6 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'6', str(n)))
+
+def generate_terminal7():
+    s7 = input
+    count7 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'7', str(n)))
+
+def generate_terminal8():
+    s8 = input
+    count8 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'8', str(n)))
+
+def generate_terminal9():
+    s9 = input
+    count9 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'9', str(n)))
+
+def generate_terminal10():
+    s10 = input
+    count10 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'10', str(n)))
+
+def generate_terminal11():
+    s11 = input
+    count11 = int(input('wwwwwwwwwww'))
+    for n in range(0, count):
+        print(s.replace(r'11', str(n)))
+
