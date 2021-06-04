@@ -1,4 +1,4 @@
-'''
+"""
 author：TheBetterKong
 data:   2021/06/04
 
@@ -6,24 +6,25 @@ data:   2021/06/04
     在写 verilog 汇编代码时往往很多内容都是重复的，它们仅仅是 pin 编号不同
     例如：
         FullAdder	fir1fa1( pp0[2], pp1[1], pp2[0], Fir1_S[1], Fir1_C[1] );
-	    FullAdder	fir1fa2( pp0[3], pp1[2], pp2[1], Fir1_S[2], Fir1_C[2] );
-	    FullAdder	fir1fa3( pp0[4], pp1[3], pp2[2], Fir1_S[3], Fir1_C[3] );
-	    FullAdder	fir1fa4( pp0[5], pp1[4], pp2[3], Fir1_S[4], Fir1_C[4] );
+        FullAdder	fir1fa2( pp0[3], pp1[2], pp2[1], Fir1_S[2], Fir1_C[2] );
+        FullAdder	fir1fa3( pp0[4], pp1[3], pp2[2], Fir1_S[3], Fir1_C[3] );
+        FullAdder	fir1fa4( pp0[5], pp1[4], pp2[3], Fir1_S[4], Fir1_C[4] );
         ...
 
     本脚本提供这种代码的一键生成
 
 代码很简单，也可根据自己情况，利用正则表达式，修改成更加复杂的情况
-'''
-
+"""
 
 import re
+
 
 def generate_terminal():
     s = input('> 输入文本模板（需要替换的地方用 {} 表示：')
     count = int(input('> 输入生成的数量：'))
     for n in range(0, count):
         print(s.replace(r'{}', str(n)))
+
 
 def generate_txt():
     filename = 'moshi.txt'
@@ -38,7 +39,6 @@ def generate_txt():
             f2.write(snew)
             f2.write('\n')
             f2.write('\n')
-    
 
 
 if __name__ == '__main__':
@@ -60,7 +60,7 @@ data:   2021/06/04
     if tag == '0':
         generate_terminal()
     elif tag == '1':
-        generate_txt() 
+        generate_txt()
 
     print('''
 ----------------------- 生成完毕 -----------------------
